@@ -10,7 +10,11 @@ function b_attack() {
   b_damage = Math.floor((Math.random() * 6) + 10);
   main_health = main_health - b_damage;
   console.log("The Boss did " + b_damage + " damage.");
-  display();
+  if (main_health <= 0) {
+    console.log("You lose.")
+  } else {
+      display();
+  }
 }
 
 // (Player Functions)
@@ -19,7 +23,11 @@ function p_attack() {
   boss_health = boss_health - p_damage;
   special = special + 1;
   console.log("You did " + p_damage + " damage.");
-  b_attack();
+  if (boss_health <= 0){
+    console.log("You have acheived the victory royale.")
+  } else {
+    b_attack(); 
+  }
 }
 function sattack() {
     if (special >= 4) {

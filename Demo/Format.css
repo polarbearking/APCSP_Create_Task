@@ -1,0 +1,20 @@
+#background {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+#commands{
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+#character{
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+#enemy{
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
