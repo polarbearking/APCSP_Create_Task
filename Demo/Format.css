@@ -1,20 +1,29 @@
 #background {
   position: absolute;
   top: 25px;
-  right: 25px;
+  right: 250px;
+  length: 1000px;
+  width: 1000px;
 }
 #commands{
   position: absolute;
-  top: 25px;
-  right: 25px;
+  top: 600px;
+  right: 425px;
+  length: 1400px;
+  width: 700px;
 }
 #character{
   position: absolute;
-  top: 25px;
-  right: 25px;
+  top: 350px;
+  right: 1000px;
+  length: 100px;
+  width: 100px;
 }
 #enemy{
   position: absolute;
-  top: 25px;
-  right: 25px;
+  top: 225px;
+  right: 315px;
+}
+#attack{
+  
 }
